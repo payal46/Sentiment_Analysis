@@ -76,16 +76,12 @@ These results demonstrate strong classification performance and effective handli
 Final predictions for the test dataset are stored in `test_predictions.csv` for external evaluation.
 
 ## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/sentiment-analysis-lstm.git
-   cd sentiment-analysis-lstm
-   ```
-2. Install dependencies:
+
+1. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Download GloVe embeddings:
+2. Download GloVe embeddings:
    ```bash
    wget http://nlp.stanford.edu/data/glove.6B.zip
    unzip glove.6B.zip
